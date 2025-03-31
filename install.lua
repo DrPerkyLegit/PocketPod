@@ -1,4 +1,4 @@
-local baseRepoURL = "http://raw.githubusercontent.com/LeakedBuffalo7907/PocketPod/main"
+local baseRepoURL = "http://raw.githubusercontent.com/DrPerkyLegit/PocketPod/main"
 
 local function downloadFile(path, name)
   local status = "Downloaded"

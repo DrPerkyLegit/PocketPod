@@ -14,7 +14,7 @@ local WebURLsArray = {}
 local SettingsEntrys = {"Return"}
 
 local speaker = peripheral.find("speaker")
-local baseRepoURL = "http://raw.githubusercontent.com/LeakedBuffalo7907/PocketPod/main"
+local baseRepoURL = "http://raw.githubusercontent.com/DrPerkyLegit/PocketPod/main"
 local webserver_URL = baseRepoURL .. "/staticFiles"
 local GlobalSongsList = {}
 local dfpwm = require("cc.audio.dfpwm")
@@ -126,7 +126,7 @@ local function playSong(songName)
     
   PrimeUI.addTask(function()
     while chunk do
-      chunk = data.read(0.5*1024)
+      chunk = data.read(1024)
       if not data or not chunk then
         while true do 
           os.pullEvent()

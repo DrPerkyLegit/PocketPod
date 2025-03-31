@@ -19,5 +19,5 @@ Any questions feel free to contact @drwebassembly on discord
 To install, run
 
 ```shell
-wget run https://raw.githubusercontent.com/LeakedBuffalo7907/PocketPod/main/install.lua
+wget run https://raw.githubusercontent.com/DrPerkyLegit/PocketPod/main/install.lua
 ```
